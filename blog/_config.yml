@@ -96,5 +96,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: github
-  repo: https://github.com/moddz/moddz.github.io.git/blog
+  repo: https://github.com/moddz/moddz.github.io.git
   branch: gh-pages
