@@ -7,3 +7,10 @@ function mofa() {
 }
 mofa();
 console.log(message);
+
+function famo() {
+  const message2 = "good job!";
+  console.log(message2);
+}
+famo();
+// console.log(message2);
