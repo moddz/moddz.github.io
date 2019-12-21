@@ -1,16 +1,8 @@
-const age = 14;
+var message; // 这个变量声明之后默认取得了 undefined 值
 
-age < 15 ? console.log("you are so young") : console.log("you are old enough");
+// 下面这个变量并没有声明 // var age
 
-function mofa() {
-  message = "hello my friends!";
-}
-mofa();
-console.log(message);
+alert(typeof message);
+alert(typeof age);
 
-function famo() {
-  const message2 = "good job!";
-  console.log(message2);
-}
-famo();
-// console.log(message2);
+// "undefined" // "undefined"
